@@ -232,3 +232,34 @@ label {
     text-transform: uppercase;
     padding-top: 20px;
 }
+
+.sabor-izq-der {
+    display: flex;
+    align-items: center;
+}
+
+.sabor-der-izq {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+}
+
+.sabores {
+    padding-top: 20px;
+}
+
+.sabores img {
+    width: 200px;
+}
+
+.sabores p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3e3535;
+    font-family: "Satisfy";
+    font-style: italic;
+    text-shadow: -1px 0 #e1e1e1, 0 1px #e1e1e1, 1px 0 #e1e1e1, 0 -1px #e1e1e1;
+    font-size: 30px;
+    font-weight: 600;
+}
