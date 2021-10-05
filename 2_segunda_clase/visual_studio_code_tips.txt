@@ -1,0 +1,21 @@
+Página de Bienvenida:   Ayuda > Bienvenido.
+Abrir archivos:         Ctrl + P
+Seleccionar languaje:   Ctrl + K > M
+Paleta de comandos:     Ctrl + Shift + P
+Tema:                   Ctrl + K > Ctrl + T
+Tipos de íconos:        Ctrl + Shift + P > file icon Theme
+Extensiones
+Explorador de archivos: Ctrl + Shift + E
+Barra lateral:          Ctrl + B
+Panel inferior:         Ctrl + J
+Modo Zen:               Ctrl + K > Z
+Copiar y Pegar:         Ctrl + C y Ctrl + V
+Copiar linea arriba:    Shift + Alt + Up
+Copiar linea abajo:     Shift + Alt + Down
+Mover linea arriba:     Alt + Up
+Mover linea abajo:      Alt + Down
+Deshacer:               Ctrl + Z
+Reemplazo multiple:     Ctrl + Shift + L
+Seleccionar columna:    Shift + Alt
+Scroll rápido:          Alt
+IntelliSense:           Ctrl + Espacio
