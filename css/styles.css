@@ -94,8 +94,13 @@ h3, h4, h5, p {
   padding-right: 30px;
 }
 
-.nosotros, .sabores, .contacto {
+.nosotros, .contacto {
     padding-top: 20px;
+    padding-bottom: 44px;
+}
+
+.sabores {
+    padding-top: 40px;
     padding-bottom: 44px;
 }
 
