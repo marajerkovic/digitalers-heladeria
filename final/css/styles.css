@@ -17,18 +17,18 @@ body {
     padding-top: 20px;
 }
 
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
 nav {
     text-align: right;
 }
 
-nav li {
-display: inline-block;
-margin: 0 10px;
-vertical-align: top;
-}
-
-nav li:last-child {
-margin-right: 0;
+header {
+    padding-bottom: 20px;
 }
 
 .portada {
@@ -41,8 +41,6 @@ margin-right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .portada-contenido {
@@ -64,19 +62,20 @@ margin-right: 0;
 
 .btn {
     display: inline-block;
-    background: #333;
+    background: transparent;
     color: #fff;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid #666;
+    border: 2px solid #2c2b2b;
     border-radius: 5px;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: .6px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn:hover {
-    background: #656363;
+    background: #2c2b2b;
     color: #fff;
 }
 
@@ -95,6 +94,11 @@ h3, h4, h5, p {
   padding-right: 30px;
 }
 
+.nosotros, .sabores, .contacto {
+    padding-top: 20px;
+    padding-bottom: 44px;
+}
+
 .nosotros p, .nosotros li {
     line-height: 1.8;
     margin: 0 0 1em;
@@ -110,7 +114,6 @@ footer {
     font-size: 14px;
     font-weight: 400;
     padding-bottom: 20px;
-    padding-top: 44px;
 }
 
 a {
@@ -179,14 +182,16 @@ a:hover {
 .titulo {
     background: url(../img/fondo-helado1.png);
     padding: 90px 0 90px 90px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #ffd8d0;
     text-align: left;
 }
 
+.titulo h1 {
+    margin-bottom: 20px;
+}
+
 .titulo p {
-    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
 .contacto {
@@ -219,13 +224,15 @@ form {
     padding: 1rem 3rem;
     border-radius: 0.25rem;
     border: solid;
+    border-color: #ffd8d0;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 50%);
 }
 
 label {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
-    color: lightgray;
+    color: white;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .5px;
@@ -236,6 +243,8 @@ label {
 .sabor-izq-der {
     display: flex;
     align-items: center;
+    padding: 20px;
+    border: 2px solid #ffd8d0;
 }
 
 .sabor-der-izq {
@@ -243,15 +252,15 @@ label {
     flex-direction: row-reverse;
     justify-content: right;
     align-items: center;
-}
-
-.sabores {
-    padding-top: 20px;
+    background: #ffd8d0;
+    padding: 20px;
 }
 
 .sabores img {
     width: 200px;
-}
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+    background: #0d0e0a;}
 
 .sabores p {
     padding-left: 20px;
